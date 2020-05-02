@@ -1,0 +1,94 @@
+body, html {
+  margin: 0;
+  background: #efeef4;
+  color: #555;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 90%;
+}
+
+html {
+  height: 100%;
+}
+
+a, a:visited {
+  color: #555;
+}
+
+body {
+  height: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+p.left {
+  position: fixed;
+  bottom: 1px;
+  left: 10px;
+}
+h1, p {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0;
+}
+
+.txt, select, form > div {
+  display: block;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.txt {
+  width: 80%;
+}
+.moz-orig {
+  display: none;
+}
+img {
+  cursor: pointer;
+  padding-top: 100px;
+}
+
+select {
+  width: 83%;
+}
+
+form > div {
+  width: 81%;
+}
+
+.txt, form > div {
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+label {
+  float: left;
+  width: 10%;
+  line-height: 1.5;
+}
+
+.rate-value, .pitch-value {
+  float: right;
+  width: 5%;
+  line-height: 1.5;
+}
+
+#rate, #pitch {
+  float: right;
+  width: 81%;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.controls button {
+  padding: 10px;
+}
